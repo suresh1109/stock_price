@@ -1,0 +1,79 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    background: white;
+    padding: 20px;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+/* Input field */
+input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+/* Result box */
+.result-box {
+    margin-top: 20px;
+    font-size: 18px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+footer a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

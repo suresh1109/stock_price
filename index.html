@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📈 Stock Price Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📈 Stock Price Tracker</h1>
+        <p>Enter a stock symbol (e.g., AAPL for Apple, MSFT for Microsoft) to see the latest price.</p>
+
+        <input type="text" id="stockSymbol" placeholder="Enter stock symbol">
+        <button onclick="getStockPrice()">Get Price</button>
+
+        <div id="result" class="result-box">
+            <!-- Stock price data will appear here -->
+        </div>
+    </div>
+    
+    <footer>
+        <p>Powered by <a href="https://www.alphavantage.co/" target="_blank">Alpha Vantage API</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
